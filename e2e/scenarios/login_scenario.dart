@@ -26,7 +26,7 @@ void main() {
       await loginRobot.tapLoginButton();
       await loginRobot.checkInvalidCredentialsMessageIsShown();
     });
-//
+////
     test('authenticates a user with an email and password', () async {
       await loginRobot.enterEmail('email@email.com');
       await loginRobot.enterPassword('s3cr3etP4ssw0rd');
