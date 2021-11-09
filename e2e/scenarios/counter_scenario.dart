@@ -26,7 +26,7 @@ void main() {
       await driver.tap(find.byTooltip('Increment'));
       await driver.tap(find.byTooltip('Increment'));
       await driver.tap(find.byTooltip('Increment'));
-      expect(await driver.getText(find.text('4')), '4');
+      expect(await driver.getText(find.text('4')), '6');
     });
   });
 }
